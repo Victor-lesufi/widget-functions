@@ -1,0 +1,47 @@
+body{
+    background-color: #84a59d;
+}
+.greet{
+    background-color: #f28482;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+}
+.bill{
+    background-color: #f5cac3;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+}
+.trans{
+    background-color: #f6bd60;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+}
+.expensive{
+    background-color: #f7ede2;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+}
+ h2{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.widgets{
+    display: flex;
+}
+.widget2{
+    display: flex;
+}
+@media(max-width:760px){
+    .widgets{
+        display: block;
+    }
+    .widget2{
+        display: block;
+    }
+}
